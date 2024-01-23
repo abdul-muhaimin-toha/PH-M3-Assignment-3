@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         black: "#131318",
         primary: "#FF4240",
+        "body-dark": "rgba(255, 255, 255, 0.60)",
       },
     },
   },

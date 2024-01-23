@@ -14,9 +14,9 @@
     <header>
       <!-- section navbar -->
       <nav>
-        <div class="mx-auto lg:w-5/6">
-          <div class="navbar bg-white">
-            <div class="navbar-start">
+        <div class="mx-auto lg:w-5/6 px-3">
+          <div class="navbar bg-white p-0 md:my-6 my-0">
+            <div class="navbar-start pl-0">
               <div class="dropdown">
                 <div
                   tabindex="0"
@@ -98,7 +98,7 @@
               </ul>
             </div>
             <div class="navbar-end space-x-4 cursor-pointer">
-              <a class="hidden md:inline-block"
+              <a class="hidden md:inline-block hover:text-primary duration-200"
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -122,6 +122,95 @@
         </div>
       </nav>
       <!-- section hero -->
+      <section>
+        <div class="mx-auto lg:w-5/6 h-16 px-3">
+          <div class="relative">
+            <div class="carousel w-full mt-2">
+              <div
+                id="slide1"
+                class="carousel-item relative w-full overflow-hidden rounded-xl md:rounded-2xl"
+              >
+                <img
+                  src="./resources/silder-1.png"
+                  class="w-full filter brightness-75 md:h-[550px] object-cover object-top rounded-xl md:rounded-2xl"
+                />
+                <div
+                  class="absolute flex justify-between transform -translate-x-1/2 left-1/2 bottom-4 gap-4 md:left-24 md:bottom-8"
+                >
+                  <a
+                    href="#slide3"
+                    class="btn btn-circle h-8 w-8 min-h-8 md:h-10 md:w-10 md:min-h-10 bg-black border-none text-white text-xs md:text-sm hover:bg-black/80"
+                    >❮</a
+                  >
+                  <a
+                    href="#slide2"
+                    class="btn btn-circle h-8 w-8 min-h-8 md:h-10 md:w-10 md:min-h-10 bg-black border-none text-white text-xs md:text-sm hover:bg-black/80"
+                    >❯</a
+                  >
+                </div>
+              </div>
+              <div
+                id="slide2"
+                class="carousel-item relative w-full overflow-hidden rounded-xl md:rounded-2xl"
+              >
+                <img
+                  src="./resources/slider-2.jpg"
+                  class="w-full filter brightness-75 md:h-[550px] object-cover object-top rounded-xl md:rounded-2xl"
+                />
+                <div
+                  class="absolute flex justify-between transform -translate-x-1/2 left-1/2 bottom-4 gap-4 md:left-24 md:bottom-8"
+                >
+                  <a
+                    href="#slide1"
+                    class="btn btn-circle h-8 w-8 min-h-8 md:h-10 md:w-10 md:min-h-10 bg-black border-none text-white text-xs md:text-sm hover:bg-black/80"
+                    >❮</a
+                  >
+                  <a
+                    href="#slide3"
+                    class="btn btn-circle h-8 w-8 min-h-8 md:h-10 md:w-10 md:min-h-10 bg-black border-none text-white text-xs md:text-sm hover:bg-black/80"
+                    >❯</a
+                  >
+                </div>
+              </div>
+              <div
+                id="slide3"
+                class="carousel-item relative w-full overflow-hidden rounded-xl md:rounded-2xl"
+              >
+                <img
+                  src="./resources/slider-3.jpg"
+                  class="w-full filter brightness-75 md:h-[550px] object-cover object-top rounded-xl md:rounded-2xl"
+                />
+                <div
+                  class="absolute flex justify-between transform -translate-x-1/2 left-1/2 bottom-4 gap-4 md:left-24 md:bottom-8"
+                >
+                  <a
+                    href="#slide2"
+                    class="btn btn-circle h-8 w-8 min-h-8 md:h-10 md:w-10 md:min-h-10 bg-black border-none text-white text-xs md:text-sm hover:bg-black/80"
+                    >❮</a
+                  >
+                  <a
+                    href="#slide1"
+                    class="btn btn-circle h-8 w-8 min-h-8 md:h-10 md:w-10 md:min-h-10 bg-black border-none text-white text-xs md:text-sm hover:bg-black/80"
+                    >❯</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- card on hero section -->
+            <div
+              class="p-4 bg-black text-white rounded-xl space-y-3 mt-3 md:absolute md:w-1/2 md:right-12 bottom-12"
+            >
+              <h1 class="text-lg font-extrabold">
+                Meet all the heroes from the field
+              </h1>
+              <p class="text-body-dark">
+                Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                turpis placerat dolor. Purus urna in sit nullam proin.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
   </body>
 </html>
