@@ -1694,6 +1694,10 @@ html{
   height: 20rem;
 }
 
+.h-96{
+  height: 24rem;
+}
+
 .min-h-8{
   min-height: 2rem;
 }
@@ -2064,6 +2068,10 @@ html{
     grid-column: span 2 / span 2;
   }
 
+  .md\:col-span-4{
+    grid-column: span 4 / span 4;
+  }
+
   .md\:my-6{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
@@ -2091,6 +2099,18 @@ html{
 
   .md\:h-\[550px\]{
     height: 550px;
+  }
+
+  .md\:h-96{
+    height: 24rem;
+  }
+
+  .md\:h-80{
+    height: 20rem;
+  }
+
+  .md\:h-\[400px\]{
+    height: 400px;
   }
 
   .md\:min-h-10{
