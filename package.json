@@ -1,0 +1,17 @@
+{
+  "name": "ph-m3-assignment-3",
+  "version": "1.0.0",
+  "description": "Milestone: 3, Assignment: 3 (Hockey's). Project based assignment for Progmming Hero course.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "daisyui": "^4.6.0",
+    "tailwindcss": "^3.4.1"
+  }
+}
