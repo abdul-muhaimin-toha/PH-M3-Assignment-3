@@ -2331,10 +2331,6 @@ details.collapse summary::-webkit-details-marker{
   width: 3rem;
 }
 
-.w-3\/4{
-  width: 75%;
-}
-
 .w-5{
   width: 1.25rem;
 }
@@ -2595,11 +2591,6 @@ details.collapse summary::-webkit-details-marker{
   padding-bottom: 1rem;
 }
 
-.px-6{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .pl-0{
   padding-left: 0px;
 }
@@ -2840,16 +2831,16 @@ details.collapse summary::-webkit-details-marker{
     width: 50%;
   }
 
+  .md\:w-3\/4{
+    width: 75%;
+  }
+
   .md\:w-4{
     width: 1rem;
   }
 
   .md\:w-96{
     width: 24rem;
-  }
-
-  .md\:w-3\/4{
-    width: 75%;
   }
 
   .md\:w-auto{
@@ -2910,10 +2901,6 @@ details.collapse summary::-webkit-details-marker{
 
   .md\:p-12{
     padding: 3rem;
-  }
-
-  .md\:p-4{
-    padding: 1rem;
   }
 
   .md\:text-2xl{
