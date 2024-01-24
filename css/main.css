@@ -2542,10 +2542,6 @@ details.collapse summary::-webkit-details-marker{
   background-image: url('../resources/program-2.png');
 }
 
-.bg-\[url\(\'\.\.\/resources\/program-3\.png\'\)\]{
-  background-image: url('../resources/program-3.png');
-}
-
 .bg-cover{
   background-size: cover;
 }
