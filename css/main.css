@@ -2534,14 +2534,6 @@ details.collapse summary::-webkit-details-marker{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\.\/resources\/program-1\.png\'\)\]{
-  background-image: url('../resources/program-1.png');
-}
-
-.bg-\[url\(\'\.\.\/resources\/program-2\.png\'\)\]{
-  background-image: url('../resources/program-2.png');
-}
-
 .bg-cover{
   background-size: cover;
 }
