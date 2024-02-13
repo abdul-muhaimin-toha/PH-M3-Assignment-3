@@ -2,6 +2,7 @@
 module.exports = {
   content: ["./*.html"],
   plugins: [require("daisyui")],
+  darkMode: 'class',
   theme: {
     fontFamily: {
       sans: ["Manrope", "sans-serif"],
